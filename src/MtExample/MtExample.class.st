@@ -1,3 +1,4 @@
+"example classes, instVars below are not required"
 Class {
 	#name : #MtExample,
 	#superclass : #Object,
@@ -9,8 +10,8 @@ Class {
 }
 
 { #category : #'main' }
+"example code to run as a test"
 MtExample >> run [
-"some code to run as a test"
 	Transcript show: 'This is a test'.
 	Transcript cr.
 ]
