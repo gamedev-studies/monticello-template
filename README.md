@@ -25,6 +25,6 @@ Open the Playground and copy/paste the following. If you create another repo bas
 ## How do I run the test?
 Open the Playground and copy/paste the following. If you create another repo based on this one, remember to change the class name accordingly.
 
-    "open the Playground and type"
+    "run test code"
     test := MtExample new.
     test run.
