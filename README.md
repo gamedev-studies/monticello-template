@@ -2,7 +2,9 @@
 A template for creating your own Monticello repository with baselines.
 
 ## How does it work?
-In the src folder, you can see 2 folders. One is the baseline, the other is your actual code. Your repository dependencies are all described inside the baseline. Pharo will download and install your dependencies, and the dependencies of the dependencies, and so on.
+- In the src folder, you can see 2 folders. One is the baseline, the other is your actual code. 
+- Your repository dependencies are all described inside the baseline. For example, in BaselineOfMtExample.class.st you can see 1 dependency being required: Roassal3Exporters. This dependency is just an example and can be removed if you do not want to use it.
+- Pharo will execute the code in your BaselineOfMtExample.class.st, download and install the dependencies, and the dependencies of the dependencies, and so on.
 
 ## How do I use it?
 - Add your dependencies to BaselineOfMtExample
