@@ -14,6 +14,10 @@ BaselineOfMtExample >> baseline: spec [
 	spec for: #common do: [ 
         "list the dependencies you wish to install, one method must be created for each; self nameOfDependency: spec."
 		self Roassal3Exporters: spec.
+
+	"load the package itself after installation, along with dependencies"
+	spec package: 'MtExample'
+			with: [ spec requires: #( 'Roassal3Exporters' ) ].
     ]
 
 ]
